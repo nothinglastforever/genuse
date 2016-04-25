@@ -1,0 +1,11 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "dependencies": {
+    "any-promise": "^1.1.0",
+    "csv-streamify": "~0.4.0",
+    "lodash": "latest",
+    "stream-to-array": "^2.3.0",
+    "underscore": "^1.8.3"
+  }
+}
