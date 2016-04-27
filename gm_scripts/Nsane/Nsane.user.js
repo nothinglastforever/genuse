@@ -131,7 +131,7 @@ function openLinks() {
 };
 
 
-var filterList =["Advanced Renamer","Advanced SystemCare Ultimate","AdwCleaner","AirDroid","AnyDesk","Avira System Speedup",
+var filterList =["Advanced Renamer","Advanced SystemCare Ultimate","AdwCleaner","AirDroid","AMD Radeon Crimson driver","AnyDesk","Avira System Speedup",
                  "Baidu Spark Browser","Bandizip",
                  "Calendarscope","Cent Browser","Chromodo","Classic Shell","Comodo Cloud Antivirus","ComboFix",
                  "Directory Opus","DLL Analyzer","DriverPack Solution Online","DUMo","DVDFab Passkey","DVDVideoSoft Free Studio",
@@ -145,7 +145,7 @@ var filterList =["Advanced Renamer","Advanced SystemCare Ultimate","AdwCleaner",
                  "PC Diagnostic Suite","PhotoInstrument","PowerArchiver",
                  "ReviverSoft PC Reviver","RogueKiller",
                  "SlySoft AnyDVD HD","Snappy Driver Installer","Spotify","Steganos Privacy Suite","SUMo","SweetScape 010 Editor","Syncovery","System Restore Point Creator",
-                 "Tencent PC Manager","Tweaking.com - Windows Repair","Universal Maps Downloader","VueScan Pro",
+                 "Tencent PC Manager","Tweaking.com - Hardware Identify","Tweaking.com - Windows Repair","Universal Maps Downloader","VueScan Pro",
                  "WebcamMax","WinUtilities Professional Edition","Wise Care 365","Wise Disk Cleaner","Wise Game Booster","Wise Registry Cleaner","Wise System Monitor",
                  "Yandex Browser","YoWindow",
                  "Xilisoft iPod Rip","XMedia Recode"];
