@@ -131,11 +131,12 @@ function openLinks() {
 };
 
 
-var filterList =["Advanced Renamer","Advanced SystemCare Ultimate","AdwCleaner","AirDroid","AMD Radeon Crimson driver","AnyDesk","Avira System Speedup",
+var filterList =["360 Total Security Essentials",
+				 "Advanced Renamer","Advanced SystemCare Ultimate","AdwCleaner","AirDroid","AMD Radeon Crimson","AnyDesk","Any DVD Converter","Any Video Converter","Avira System Speedup",
                  "Baidu Spark Browser","Bandizip",
-                 "Calendarscope","Cent Browser","Chromodo","Classic Shell","Comodo Cloud Antivirus","ComboFix",
+                 "Calendarscope","Cent Browser","Chromodo","Classic Shell","Comodo Cloud Antivirus","ComboFix","CyberLink PowerDVD",
                  "Directory Opus","DLL Analyzer","DriverPack Solution Online","DUMo","DVDFab Passkey","DVDVideoSoft Free Studio",
-                 "eBook Converter Bundle","Emurasoft EmEditor Professional","Foxit PhantomPDF Business","GetFLV Pro","IP Filter Downloader",
+                 "eBook Converter Bundle","EMDB","Emurasoft EmEditor Professional","Foxit PhantomPDF Business","GetFLV Pro","IP Filter Downloader",
                  "Glarysoft Malware Hunter","HitmanPro.Alert",
                  "Intel Solid State Drive","IObit Advanced System Care Pro","IObit Driver Booster Pro",
                  "JRiver Media Center",
@@ -143,12 +144,12 @@ var filterList =["Advanced Renamer","Advanced SystemCare Ultimate","AdwCleaner",
                  "Norton 2015","PassMark BurnInTest Professional",
                  "oCam Screen Recorder",
                  "PC Diagnostic Suite","PhotoInstrument","PowerArchiver",
-                 "ReviverSoft PC Reviver","RogueKiller",
-                 "SlySoft AnyDVD HD","Snappy Driver Installer","Spotify","Steganos Privacy Suite","SUMo","SweetScape 010 Editor","Syncovery","System Restore Point Creator",
-                 "Tencent PC Manager","Tweaking.com - Hardware Identify","Tweaking.com - Windows Repair","Universal Maps Downloader","VueScan Pro",
+                 "Restore Point Creator","ReviverSoft PC Reviver","RogueKiller",
+                 "SlySoft AnyDVD HD","Snappy Driver Installer","Solsuite Solitaire","Spotify","StartIsBack++","Steganos Privacy Suite","SUMo","Super MP3 Download","SweetScape 010 Editor","Symantec Endpoint Protection (SEP)","Syncovery","System Restore Point Creator",
+                 "Tencent PC Manager","Tweaking.com - Hardware Identify","Tweaking.com - Windows Repair","Universal Maps Downloader","VSO ConvertXtoVideo Ultimate","VueScan Pro",
                  "WebcamMax","WinUtilities Professional Edition","Wise Care 365","Wise Disk Cleaner","Wise Game Booster","Wise Registry Cleaner","Wise System Monitor",
                  "Yandex Browser","YoWindow",
-                 "Xilisoft iPod Rip","XMedia Recode"];
+                 "Xilisoft iPod Rip","XMedia Recode","xplorer2"];
 
 $("#GM_StartStopBtn").click(openLinks);
 
