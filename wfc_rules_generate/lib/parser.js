@@ -104,7 +104,8 @@ Parser.prototype._parseRow = function(row) {
   // rowcustomized = rowcustomized.splice(3,6);
   var result =_.zipObject(COLUMNS,
                            row.filter(function(v,index){
-                                        if (index !== 0 && index !==1 && index !==5) return v;  // filtered unneeded indexs and values
+                                        //if (index !== 0 && index !==1 && index !==5) return v;  // filtered unneeded indexs and values
+                                        return v;  // filtered unneeded indexs and values
                                      })
   );
   // "Expand" event data column
@@ -115,7 +116,7 @@ Parser.prototype._parseRow = function(row) {
   //   item = item.split('=');
   //   result['Event Data'][item[0]] = item[1];
   // });
-  // console.log (result);
+  //console.log (result);
     
   return result;
 };

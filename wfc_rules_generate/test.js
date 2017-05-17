@@ -3,7 +3,8 @@
  */
 var LogToArray = require('./lib/logtoarray');
 var Promise = require('any-promise');
-var logfile = 'D:\\temp\\WFC_log_temp.txt';
+//var logfile = 'D:\\temp\\WFC_Log_Temp.txt';
+var logfile = 'D:\\temp\\filename.txt';
 var DataGrouper = require('./lib/DataGrouper');
 var _ = require('lodash');
 
@@ -25,7 +26,7 @@ var display = (function() {
     //
     display.obj = function(obj) {
         //
-        // console.log(display(JSON.stringify(obj, null, 4)));
+        //console.log(display(JSON.stringify(obj, null, 4)));
         require('fs').writeFile(
 
             'D:\\temp\\my.json',

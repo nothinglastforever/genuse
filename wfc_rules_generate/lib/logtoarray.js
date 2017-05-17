@@ -50,7 +50,7 @@ function LogToArray(filename,callback) {
     //.pipe(process.stdout)
         .then(function (parts) {
             toUnique(parts);
-            // console.log (parts);
+            //console.log (parts);
             // return  parts;
             callback(parts);
          });

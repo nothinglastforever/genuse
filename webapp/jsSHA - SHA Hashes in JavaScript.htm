@@ -2,9 +2,50 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<title>jsSHA - SHA Hashes in JavaScript</title>
+	<meta name="viewport" content="width=device-width" initial-scale=1 maximum-scale=1 />
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<meta name="keywords" content="SHA, SHA-1, SHA-2, SHA-224, SHA-256, SHA-384, SHA-512, HMAC, javascript, JS, Secure Hash Standard, hash, security, cryptography, FIPS 180-2" />
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<style type="text/css">
+		body {
+			background-color: #f1f0ec;
+			margin: 0px;
+		}
+		#container {
+			background-color: #FFFFFF;
+			color: #000000;
+			
+			margin: 5px auto;
+			padding: 10px;
+			border: 1px solid #000000;
+		}
+		h1 {
+			font-size: 24px;
+			color: #a00101;
+			background-color: #FFFFFF;
+		}
+		p {
+			margin: 5px;
+		}
+		label {
+			width: 150px;
+			display: block;
+			float: left;
+			text-align: right;
+			padding-right: 10px;
+		}
+		fieldset {
+			margin: 3px 0px;
+			
+			
+		}
+		img {
+			display: block;
+			margin: 0px auto;
+			border: 0px;
+		}
+	
+	
+	</style>
 	<script type="text/javascript">
 	(function(F){function p(d,a,c){var g=0,b=[],e=0,f,k,l,h,m,u,q,v=!1,n=[],r=[],t,p=!1;c=c||{};f=c.encoding||"UTF8";t=c.numRounds||1;l=y(a,f);if(t!==parseInt(t,10)||1>t)throw Error("numRounds must a integer >= 1");if("SHA-1"===d)m=512,u=z,q=G,h=160;else throw Error("Chosen SHA variant is not supported");k=w(d);this.setHMACKey=function(a,b,e){var c;if(!0===v)throw Error("HMAC key already set");if(!0===p)throw Error("Cannot set HMAC key after calling update");f=(e||{}).encoding||"UTF8";b=
 y(b,f)(a);a=b.binLen;b=b.value;c=m>>>3;e=c/4-1;if(c<a/8){for(b=q(b,a,0,w(d));b.length<=e;)b.push(0);b[e]&=4294967040}else if(c>a/8){for(;b.length<=e;)b.push(0);b[e]&=4294967040}for(a=0;a<=e;a+=1)n[a]=b[a]^909522486,r[a]=b[a]^1549556828;k=u(n,k);g=m;v=!0};this.update=function(a){var c,d,f,h=0,q=m>>>5;c=l(a,b,e);a=c.binLen;d=c.value;c=a>>>5;for(f=0;f<c;f+=q)h+m<=a&&(k=u(d.slice(f,f+q),k),h+=m);g+=h;b=d.slice(h>>>5);e=a%m;p=!0};this.getHash=function(a,c){var f,l,m,n;if(!0===v)throw Error("Cannot call getHash after setting HMAC key");
